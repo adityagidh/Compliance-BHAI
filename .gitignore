@@ -1,0 +1,31 @@
+# Exclude virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled, optimized, or compiled code
+*.pyo
+*.pyc
+*.pyd
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude environment and dependency files
+*.env
+.env
+*.venv
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore any virtual environment folders with specific names
+env/
+ENV/
